@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PID=`pidof matchbox-keyboard`
-echo $PID
+DISPLAY=:0
 
 if [ ! -e $PID ]; then
 	kill $PID
