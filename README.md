@@ -24,3 +24,12 @@ First do a basic install of Kiwix Hotspot. Add a 'ssh' file to the /boot partiti
 	- `sudo apt-get install --no-install-recommends chromium-browser`
 - Install Matchbox virtual keyboard
 	- `sudo apt-get install --no-install-recommends matchbox-keyboard`
+	
+That should take care of the software installs. Now copy the .xsession file from this repository to the home directory of the user 'pi'
+
+`cp .xsession ~`
+
+Edit the .bashrc file in the home directory and add the following to the bottom
+
+`startx -- -nocursor`
+
