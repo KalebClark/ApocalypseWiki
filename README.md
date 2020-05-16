@@ -16,6 +16,10 @@ Apocalypse Wiki! This is a standard build of Kiwix Hotspot (which is NOT include
 ## Installation
 First do a basic install of Kiwix Hotspot. Add a 'ssh' file to the /boot partition and then login with normal raspi default credentials.
 
+- Configure System
+	- `sudo raspi-config`
+	- Boot Options -> Desktop/CLI -> Console Autologin
+	- Interfacing Options -> 1-Wire
 - Update APT
 	- `sudo apt-get update`
 - Install minimal xwindows
