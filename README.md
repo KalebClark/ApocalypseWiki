@@ -37,3 +37,10 @@ Edit the .bashrc file in the home directory and add the following to the bottom
 
 `startx -- -nocursor`
 
+Now install the service.
+- `sudo cp apocpi.service /etc/systemd/system/`
+- `sudo systemctl enable apocpi.service`
+- `sudo systemctl start apocpi.service`
+
+
+
