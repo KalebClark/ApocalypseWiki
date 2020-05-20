@@ -28,6 +28,8 @@ First do a basic install of Kiwix Hotspot. Add a 'ssh' file to the /boot partiti
 	- `sudo apt-get install --no-install-recommends chromium-browser`
 - Install Matchbox virtual keyboard
 	- `sudo apt-get install --no-install-recommends matchbox-keyboard`
+- Install RPi.GPIO for python3
+	- `sudo pip3 install RPi.GPIO`
 	
 That should take care of the software installs. Now copy the .xsession file from this repository to the home directory of the user 'pi'
 
