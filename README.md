@@ -1,5 +1,7 @@
 # Apocpi
-Apocalypse Wiki! This is a standard build of Kiwix Hotspot (which is NOT included in this repository), with some hardware additions that I have made. 
+Apocalypse Wiki! This is a standard build of Kiwix Hotspot (which is NOT included in this repository), with some hardware additions that I have made.
+
+[See the full video on the Element14 Comunnity](https://www.element14.com/community/docs/DOC-95185/l/episode-451-build-an-off-grid-wikipedia-with-raspberry-pi)
 
 ## Hardware Additions
 - Raspberry Pi Touchscreen Display
